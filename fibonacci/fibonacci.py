@@ -1,5 +1,4 @@
 #%%
-
 # fibonacci.py
 
 def fibonacci(n):
