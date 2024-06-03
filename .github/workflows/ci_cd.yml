@@ -59,6 +59,7 @@ jobs:
 
     - name: Publish wheel to PyPI
       env:
+        # user and password set in PYPI and added to github repo secrets
         TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
         TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       run: |

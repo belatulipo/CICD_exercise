@@ -1,6 +1,7 @@
 #%%
 
 # fibonacci.py
+# comment to test CI/CD workflow
 
 def fibonacci(n):
     if n <= 0:
